@@ -1,0 +1,19 @@
+:root{
+	/*cores*/
+	--color1: #040711;
+	--color2: #394150;
+	--color3: #4D5562;
+	--color4: #CDD5E0;
+	--color5: #F9FAFB;
+	--color6: #3662E3;
+	--color7: #7CA9F3;
+	--color8: #212936cc;
+	--color9: #121826cc;
+
+	/*cor de fundo*/
+	--background_color1: rgba(33, 41, 54, 0.9); /* código rgba da cor #212936cc */
+	--background_color2: rgba(18, 24, 38, 0.8); /* código rgba da cor #121826cc */ 
+
+	/* fontes */
+	--fonte-padrao: 'DM Sans', sans-serif;
+}

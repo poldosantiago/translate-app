@@ -1,0 +1,21 @@
+button{
+    /* margin-right: 1rem; */
+    color:var(--color3);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+button:hover{
+    color:var(--color5);
+}
+
+button.--selected{
+    color:var(--color5);
+    font-weight: bold;
+    background-color: var(--color3);
+    padding: 0.8rem;
+    border-radius: 10px;
+}

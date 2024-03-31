@@ -1,23 +1,23 @@
+import './app.css';
 import logo from './logo.svg';
-import './App.css';
+import TranslatePanel from './components/translate-panel';
+import React, { useState, useEffect } from 'react';
+import translate from "translate";
 
 function App() {
+
+  const [sourceText, setSourceText] = useState('Hello, how are you?');
+  const [translation, setTranslation] = useState('Bonjour comment allez-vous?');
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='page_content'>
+      <img src={logo} alt="" className="logo" />
+      
+      <div className='panel_content'>
+        <TranslatePanel translationPanel={false} text={sourceText}/>
+        <TranslatePanel translationPanel={true} text={translation}/>
+      </div>
     </div>
   );
 }

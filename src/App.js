@@ -1,14 +1,12 @@
 import './app.css';
 import logo from './logo.svg';
 import TranslatePanel from './components/translate-panel';
-import React, { useState, useEffect } from 'react';
-import translate from "translate";
+import React, { useState } from 'react';
 
 function App() {
 
   const [sourceText, setSourceText] = useState('Hello, how are you?');
   const [translation, setTranslation] = useState('Bonjour comment allez-vous?');
-
 
   return (
     <div className='page_content'>

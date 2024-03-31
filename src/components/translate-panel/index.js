@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './TranslatePanel.css';
-import ButtonLanguage from '../button-language';
-import ButtonImage from '../button-image';
-import ButtonTranslate from 'components/button-translate';
+import ButtonLanguage from '../button-language/index.js';
+import ButtonImage from '../button-image/index.js';
+import ButtonTranslate from 'components/button-translate/index.js';
 
 //svg...
 import imgHorizontalTopLeft from './svg/Horizontal_top_left_main.svg';

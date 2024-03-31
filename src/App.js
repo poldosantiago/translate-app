@@ -1,6 +1,6 @@
 import './app.css';
 import logo from './logo.svg';
-import TranslatePanel from './components/translate-panel';
+import TranslatePanel from './components/translate-panel/index.js';
 import React, { useState } from 'react';
 
 function App() {

@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import './translatePanel.css';
-import ButtonLanguage from '../button-language/index.js';
-import ButtonImage from '../button-image/index.js';
+import 'components/translate-panel/translatePanel.css';
+import ButtonLanguage from 'components/button-language/index.js';
+import ButtonImage from 'components/button-image/index.js';
 import ButtonTranslate from 'components/button-translate/index.js';
 
 //svg...
-import imgHorizontalTopLeft from './svg/horizontal_top_left_main.svg';
-import soundMaxFill from './svg/sound_max_fill.svg';
-import copyImage from './svg/copy.svg';
+import imgHorizontalTopLeft from 'components/translate-panel/svg/horizontal_top_left_main.svg';
+import soundMaxFill from 'components/translate-panel/svg/sound_max_fill.svg';
+import copyImage from 'components/translate-panel/svg/copy.svg';
 
-// import sortAlfa from './svg/Sort_alfa.svg';
+// import sortAlfa from 'components/translate-panel/svg/Sort_alfa.svg';
 
 function TranslatePanel({translationPanel, text}) {
     

@@ -1,4 +1,4 @@
-import './buttonLanguage.css';
+import 'components/button-language/buttonLanguage.css';
 
 function ButtonLanguage({children, lbIsActive, setLbActive}) {
     return ( 

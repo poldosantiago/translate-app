@@ -1,4 +1,4 @@
-import './buttonImage.css';
+import 'components/button-image/buttonImage.css';
 
 function ButtonImage({img}) {
     return ( 

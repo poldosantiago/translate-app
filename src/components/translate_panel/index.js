@@ -5,9 +5,9 @@ import ButtonImage from 'components/button_image/index.js';
 import ButtonTranslate from 'components/button_translate/index.js';
 
 //svg...
-import imgHorizontalTopLeft from 'components/translate-panel/svg/horizontal_top_left_main.svg';
-import soundMaxFill from 'components/translate-panel/svg/sound_max_fill.svg';
-import copyImage from 'components/translate-panel/svg/copy.svg';
+import imgHorizontalTopLeft from 'components/translate_panel/svg/horizontal_top_left_main.svg';
+import soundMaxFill from 'components/translate_panel/svg/sound_max_fill.svg';
+import copyImage from 'components/translate_panel/svg/copy.svg';
 
 // import sortAlfa from 'components/translate-panel/svg/Sort_alfa.svg';
 

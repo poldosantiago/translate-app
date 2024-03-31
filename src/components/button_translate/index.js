@@ -1,4 +1,4 @@
-import 'components/button-translate/buttonTranslate.css';
+import 'components/button_translate/buttonTranslate.css';
 import sortAlfa from './sort_alfa.svg';
 
 function ButtonTranslate() {

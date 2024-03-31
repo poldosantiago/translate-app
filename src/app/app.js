@@ -1,4 +1,4 @@
-import 'app.css';
+import 'app/app.css';
 import logo from 'logo.svg';
 import TranslatePanel from 'components/translate-panel/index.js';
 import React, { useState } from 'react';

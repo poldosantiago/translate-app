@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import './TranslatePanel.css';
+import './translatePanel.css';
 import ButtonLanguage from '../button-language/index.js';
 import ButtonImage from '../button-image/index.js';
 import ButtonTranslate from 'components/button-translate/index.js';
 
 //svg...
-import imgHorizontalTopLeft from './svg/Horizontal_top_left_main.svg';
+import imgHorizontalTopLeft from './svg/horizontal_top_left_main.svg';
 import soundMaxFill from './svg/sound_max_fill.svg';
-import copyImage from './svg/Copy.svg';
+import copyImage from './svg/copy.svg';
 
 // import sortAlfa from './svg/Sort_alfa.svg';
 
